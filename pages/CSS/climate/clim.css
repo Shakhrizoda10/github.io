@@ -1,0 +1,264 @@
+.climate{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    h6, p {
+        font-family: sans-serif;
+      }
+      
+      .c-heroImageGrid {
+          position: relative;
+          overflow: hidden;
+          height: 50vw;
+          background: #fff;
+          margin-bottom: 60px;
+      }
+      
+      .c-heroImageGrid .container-clim {
+          display: flex;
+          align-items: flex-end;
+          position: absolute;
+          top: -20vw;
+          left: -8vw;
+          transform: rotateZ(45deg);
+          height: 100vw;
+          width: 107vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column {
+          overflow: hidden;
+          position: relative;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(1) {
+          border-right: 8px solid white;
+          width: 25%;
+          height: 66vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(1):hover {
+          opacity: 0.75;
+          cursor: pointer;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(1):before {
+          position: absolute;
+          top: 8.4vw;
+          left: 8.1vw;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transform: rotateZ(-45deg);
+          content: "";
+          width: 37vw;
+          height: 38vw;
+          background-image: url("https://wallpapertops.com/walldb/original/a/5/7/6883.jpg");
+      }
+      
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) {
+          display: flex;
+          flex-direction: column-reverse;
+          width: 75%;
+          height: 109.1vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row {
+          border-top: 8px solid #fff;
+      }
+      
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(1) {
+          position: relative;
+          overflow: hidden;
+          height: 50vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(1):hover {
+          opacity: 0.75;
+          cursor: pointer;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(1):before {
+          position: absolute;
+          top: -10.1vw;
+          left: -14.3vw;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transform: rotateZ(-45deg);
+          content: "";
+          width: 65vw;
+          height: 39vw;
+          background-image: url("https://images5.alphacoders.com/330/330278.jpg");
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) {
+          display: flex;
+          height: 40.5vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(3) {
+          border-top: none;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+          overflow: hidden;
+          width: 30%;
+          background-color: #8B8B8A;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+          width: 100%;
+          height: 100%;
+          overflow: visible;
+          transform: rotateZ(-45deg);
+          position: relative;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+          position: absolute;
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 1.35vw;
+          width: 20vw;
+          top: 16vw;
+          left: 7vw;
+          line-height: 1.55vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+          text-align: right;
+          position: absolute;
+          color: #fff;
+          font-size: 0.9vw;
+          width: 18vw;
+          top: 23.5vw;
+          left: -3.5vw;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+          position: relative;
+          width: 70%;
+          border-left: 8px solid white;
+          overflow: hidden;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
+          opacity: 0.75;
+          cursor: pointer;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+          position: absolute;
+          top: 0;
+          left: -40vw;
+          width: 110.1vw;
+          height: 110vw;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transform: rotateZ(-45deg);
+          content: "";
+          background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg");
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(3) {
+          position: relative;
+          height: 18.6vw;
+          overflow: hidden;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(3):hover {
+          opacity: 0.75;
+          cursor: pointer;
+      }
+      
+      .c-heroImageGrid .container-clim .column:nth-of-type(2) .row:nth-of-type(3):before {
+          position: absolute;
+          top: 7.5vw;
+          left: 25vw;
+          width: 33vw;
+          height: 27vw;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transform: rotateZ(-45deg);
+          content: "";
+          background-image: url("https://image.winudf.com/v2/image/bWUud2FsbHBhcGEubmF0dXJlX3NjcmVlbl8xXzE1MzIzNzgxNThfMDE3/screen-1.jpg?fakeurl=1&type=.webp");
+      }
+      .flex-clim{
+        display: flex;
+        flex: 33%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px;
+        padding: 10px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+       /* text-align: center; */
+       
+      }
+      /* .flex-clim div{
+        display: flex;
+        flex-wrap: wrap;
+        width: 33%;
+      } */
+      .flex-clim img{
+        width: 400px;
+        padding: 10px;
+      }
+      .flex-clim hr{
+       border: 1px solid dodgerblue;
+        width: 25%;
+        margin: 15px auto;
+        align-items: center;
+
+      }
+      .flex-clim h3{
+       text-align: center;
+/* border-bottom: 5px solid blue; */
+
+
+      }
+      .flex-clim p{
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+margin: 10px 2px;
+width: 400px;
+      }
+      .flex-clim a{
+        text-decoration: none;
+        color: rgb(7, 7, 7);
+        font-weight: 500;
+        border-bottom: 2px dotted rgb(68, 67, 67);
+        font-size: 20px;
+        
+      }
+
+      @media (max-width: 768px) {
+        .flex-clim h3{
+font-size: 15px;
+        }
+        .flex-clim p{
+            font-size: 15px;
+           
+    margin: 10px 2px;
+    width: 250px;
+    padding: 20px;
+}
+
+    .flex-clim img{
+        width: 250px;
+        padding: 20px;
+      }
+      .flex-clim a{
+       
+     
+        border-bottom: 1px dotted rgb(68, 67, 67);
+        font-size: 15px;
+        width: 250px;
+      }
+      .climHr{
+        width: fit-content;
+      }
+      }
